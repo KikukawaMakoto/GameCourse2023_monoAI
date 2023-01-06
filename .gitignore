@@ -1,0 +1,10 @@
+GameCourse_2023_TPS/.vs
+GameCourse_2023_TPS/*.csproj
+GameCourse_2023_TPS/Library
+GameCourse_2023_TPS/Temp/
+GameCourse_2023_TPS/Library/
+GameCourse_2023_TPS/Packages/
+GameCourse_2023_TPS/obj/
+GameCourse_2023_TPS/UnityPackageManager/
+GameCourse_2023_TPS/*.unitypackage
+GameCourse_2023_TPS/*.sln
