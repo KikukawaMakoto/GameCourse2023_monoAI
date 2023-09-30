@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 591b8bf650e73d641a396d03b9f6af89
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       1: 100000
@@ -662,19 +662,19 @@ ModelImporter:
     second: Ellen_Body
   - first:
       74: 7400000
-    second: Ellen_RunForward45Left
+    second: Ellen_Run_Forward_45_Left
   - first:
       74: 7400002
-    second: Ellen_RunForwardLeft
+    second: Ellen_Run_Forward_Left
   - first:
       74: 7400004
-    second: Ellen_RunForward
+    second: EllenRunForward
   - first:
       74: 7400006
     second: EllenRunForward45Right
   - first:
       74: 7400008
-    second: Ellen_RunForwardRight
+    second: EllenRunForwardRight
   - first:
       95: 9500000
     second: //RootNode
@@ -682,8 +682,14 @@ ModelImporter:
       137: 13700000
     second: Ellen_Body
   - first:
-      74: 1693982165282879949
-    second: Ellen_RunForward45Right
+      74: 4745793008729673284
+    second: Ellen_Run_Forward
+  - first:
+      74: 163844454370508561
+    second: Ellen_Run_Forward_45_Right
+  - first:
+      74: -1813359259896163362
+    second: Ellen_Run_Forward_Right
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -743,7 +749,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Ellen_RunForwardLeft
+      name: Ellen_Run_Forward_Left
       takeName: Take 001
       internalID: 0
       firstFrame: 27
@@ -1004,7 +1010,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Ellen_RunForward45Left
+      name: Ellen_Run_Forward_45_Left
       takeName: Take 001
       internalID: 0
       firstFrame: 27
@@ -1251,7 +1257,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Ellen_RunForward
+      name: Ellen_Run_Forward
       takeName: Take 001
       internalID: 0
       firstFrame: 27
@@ -1577,7 +1583,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Ellen_RunForward45Right
+      name: Ellen_Run_Forward_45_Right
       takeName: Take 001
       internalID: 0
       firstFrame: 27
@@ -1824,7 +1830,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Ellen_RunForwardRight
+      name: Ellen_Run_Forward_Right
       takeName: Take 001
       internalID: 0
       firstFrame: 27
@@ -2088,6 +2094,7 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -2097,6 +2104,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -2131,6 +2141,7 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
